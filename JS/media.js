@@ -2,50 +2,50 @@ const members = [
     {
         name: "Phuc Khoa",
         nick_name: "PK",
-        img: "../sources/Images/PK.jpg",
+        img: "./sources/Images/PK.jpg",
         desc: "",
         dob: "22/10/2003",
-        layer: "../sources/Images/PKlayer.jpg",
+        layer: "./sources/Images/PKlayer.jpg",
     },
     {
         name: "Tien Doanh",
         nick_name: "TD",
-        img: "../sources/Images/TD.jpg",
+        img: "./sources/Images/TD.jpg",
         desc: "",
         dob: "25/12/2003",
-        layer: "../sources/Images/TDlayer.jpg",
+        layer: "./sources/Images/TDlayer.jpg",
     },
     {
         name: "Quang Minh",
         nick_name: "QM",
-        img: "../sources/Images/TM.jpg",
+        img: "./sources/Images/TM.jpg",
         desc: "",
         dob: "27/12/2003",
-        layer: "../sources/Images/QMlayer.jpg",
+        layer: "./sources/Images/QMlayer.jpg",
     },
     {
         name: "Tien Lap",
         nick_name: "TL",
-        img: "../sources/Images/TL.jpg",
+        img: "./sources/Images/TL.jpg",
         desc: "1",
         dob: "15/01/2003",
-        layer: "../sources/Images/TLlayer.jpg",
+        layer: "./sources/Images/TLlayer.jpg",
     },
     {
         name: "Sinh Hung",
         nick_name: "SH",
-        img: "../sources/Images/SH.jpg",
+        img: "./sources/Images/SH.jpg",
         desc: "",
         dob: "06/11/2003",
-        layer: "../sources/Images/SHlayer.jpg",
+        layer: "./sources/Images/SHlayer.jpg",
     },
     {
         name: "Tan Dung",
         nick_name: "Bee",
-        img: "../sources/Images/Bee.jpg",
+        img: "./sources/Images/Bee.jpg",
         desc: "",
         dob: "29/10/2003",
-        layer: "../sources/Images/Beelayer.jpg",
+        layer: "./sources/Images/Beelayer.jpg",
     },
 ];
 const root = document.querySelector(".members__body");
@@ -91,7 +91,7 @@ var html2 = members
                     <div class="memInfo__desc">
                         ${
                             members[index].desc &&
-                            '<img class = "unavailable"src="../sources/Images/unavailable.jpg" alt="" />'
+                            '<img class = "unavailable"src="./sources/Images/unavailable.jpg" alt="" />'
                         }
                     </div>
                     <div class="memInfo__btn">
